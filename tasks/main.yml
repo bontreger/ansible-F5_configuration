@@ -1,0 +1,21 @@
+---
+- name: "Configure an F5"
+  hosts: localhost
+
+  tasks:
+  - name: "Create pools"
+    include: pools.yml
+    when: create_pools
+
+  - name: "Create nodes"
+    include: nodes.yml
+    when: create_nodes
+
+  - name: "Assign nodes to pools"
+    include: assign_nodes.yml
+    when: assign_nodes_to_pools
+
+  - name: "Create VIPs"
+    include: vips.yml
+    when: create_vips
+...

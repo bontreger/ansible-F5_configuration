@@ -1,0 +1,13 @@
+---
+# Example vars file for VIP configuration.
+# Each VIP has a separate vars file
+vip_name: "example"
+vip_description: "An example VIP created to demonstrate functionality"
+destination:
+bigip_password:
+pool_name:
+bigip_port:
+bigip_host:
+bigip_username:
+validate_certs: false
+

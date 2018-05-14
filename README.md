@@ -1,2 +1,2 @@
-# ansible-F5_configuration
-A role design for configuring F5 devices
+# ansible-F5_VIP_creation
+A role for creating VIPs on an F5 for new applications

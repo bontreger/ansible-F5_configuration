@@ -1,0 +1,14 @@
+galaxy_info:
+  author: Ryan Bontreger
+  description: A role for configuring a VIP on an F5
+  company: Red Hat Consulting
+
+  issue_tracker_url: https://github.com/bontreger/ansible-F5_VIP_creation/issues
+
+  license: license (GPLv2, CC-BY, etc)
+
+  min_ansible_version: 2.5
+
+  galaxy_tags: ["F5"]
+
+dependencies: []
